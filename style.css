@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+} 
+
+#main{
+    min-height: 100vh;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top:10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:#179712;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+#addBtn:hover{
+    background-color:#06a006 ;
+}
+.note{
+    background: transparent;
+    border-radius: 10px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.tool{
+    background-color: #222831;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.tool i{
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.8s ease;
+}
+.tool i:hover{
+    color: #aca1a1;
+}
+
+.note textarea{
+    width: 300px;
+    min-height: 220px;
+    resize: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    background-color: #393e46;
+    overflow:hidden;
+    border-radius: 0px 0px 10px 10px;
+    transition: background-color 1s ease;
+}
+
+.note textarea:hover{
+    background-color: #293e46;
+}
+
+.note textarea:focus{
+    outline:none;
+}
+   

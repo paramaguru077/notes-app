@@ -78,3 +78,18 @@ body{
     outline:none;
 }
    
+.gitlog a{
+    text-decoration: none;
+    color: #222;
+    position: absolute;
+    top: 5px;
+    left:10px;
+    cursor: pointer;
+
+    width: 20px;
+    border-radius: 4px;
+}
+.gitlog a:hover{
+    background: transparent;
+    top: 0px;
+}
